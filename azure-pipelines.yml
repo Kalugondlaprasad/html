@@ -1,9 +1,0 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
-- task: PublishBuildArtifacts@1
-  inputs:
-    pathToPublish: path/to/htmlReportFolder
-    artifactName: HtmlReport
